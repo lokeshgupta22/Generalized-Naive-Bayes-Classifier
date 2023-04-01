@@ -134,8 +134,7 @@ def accuracy(path):
 
 
 start = time.time()
-path = ["Iris.csv", "iristest.csv", "iristest2.csv",
-        "diabetes.csv", "diabetestest.csv", "housingdata2.csv"]
+path = ["Iris.csv","diabetes.csv"]
 for i in path:
     accuracy(i)
 print(f"Time taken: {time.time() - start}")
